@@ -1,0 +1,50 @@
+body {
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    display: grid;
+    /* no figma: foto ocupando 4 colunas do grid e texto ocupando 8, trazer a proporção para o código em fr */
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+.subtitulo {
+    font-size: 9rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    /* determina a qunatidade máxima de caracteres */
+    max-width: 4ch;
+}
+
+@media (max-width: 800px) { 
+    .subtitulo {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial;
+    }
+}
