@@ -41,10 +41,22 @@ img {
     max-width: 4ch;
 }
 
+.texto-introducao {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+}
+
+
 @media (max-width: 800px) { 
     .subtitulo {
         font-size: 3rem;
         text-transform: capitalize;
         max-width: initial;
+    }
+
+    .texto-introducao {
+        font-size: 1.25rem;
     }
 }

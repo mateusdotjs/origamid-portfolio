@@ -3,10 +3,6 @@
 }
 
 .experiencia-texto {
-    font-size: 1.5rem;
-    line-height: 1.33;
-    margin-bottom: 60px;
-    max-width: 40ch;
     color: #525252;
 }
 
@@ -78,10 +74,6 @@
 
     .experiencia .subtitulo {
         color: #141414;
-    }
-
-    .experiencia-texto {
-        font-size: 1.25rem;
     }
 
     .empresa-ano {
