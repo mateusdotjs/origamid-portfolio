@@ -35,11 +35,6 @@
 }
 
 @media (max-width: 800px) {
-    .introducao {
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-    }
-
     .introducao h1 {
         font-size: 2rem;
     }

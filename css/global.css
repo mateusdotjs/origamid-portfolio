@@ -19,6 +19,7 @@ ul {
 
 img {
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -50,10 +51,15 @@ img {
 
 
 @media (max-width: 800px) { 
+    .container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
     .subtitulo {
         font-size: 3rem;
         text-transform: capitalize;
-        max-width: initial;
+        max-width: initial !important;
     }
 
     .texto-introducao {
